@@ -18,4 +18,3 @@ fi
 
 # Maven
 apt-get -y install maven
-
