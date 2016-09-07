@@ -9,5 +9,5 @@ SHARED_DIR="/vagrant"
 
 DOWNLOAD_DIR="$SHARED_DIR/downloads"
 if [ ! -d $DOWNLOAD_DIR ]; then
-  mkdir $DOWNLOAD_DIR
+  mkdir -p $DOWNLOAD_DIR
 fi
